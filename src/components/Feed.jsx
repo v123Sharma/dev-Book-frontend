@@ -33,7 +33,7 @@ useEffect(()=>{
   return (
     feed && (
     <div className="flex justify-center my-10">
-      <UserCards user={feed[1]}/>
+      <UserCards user={feed[0]}/>
     </div>
     )
   );
