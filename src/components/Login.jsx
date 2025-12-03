@@ -12,7 +12,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  const [isLoginForm, setIsLogInForm] = useState(false);
+  const [isLoginForm, setIsLogInForm] = useState(true);
   const [error, setError] = useState("")
 
   const dispatch = useDispatch();
